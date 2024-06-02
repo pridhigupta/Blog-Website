@@ -1,0 +1,47 @@
+.contacts {
+    margin-top: 60px;
+
+}
+
+.contactHead>h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.contactForm {
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm>input {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100vh;
+    font-size: 20px;
+
+}
+
+.contactForm>textarea {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100vh;
+    font-size: 20px;
+    height: 20vh;
+
+}
+
+.contactForm>button {
+    width: 105vh;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+
+}

@@ -1,0 +1,36 @@
+.aboutmain {
+    padding: 80px;
+}
+
+.abimg {
+    width: 100%;
+    height: 500px;
+    background:
+        linear-gradient(rgba(65, 62, 62, 0.5),
+            rgba(52, 51, 51, 0.5)),
+        url("https://static.wixstatic.com/media/ee7f6b_f9e9fb279f954037bf2602d2335bd511~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_980,h_500,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/ee7f6b_f9e9fb279f954037bf2602d2335bd511~mv2_d_5472_3648_s_4_2.jpg");
+    background-size: cover;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #FFFFFF;
+}
+
+.headerTitleS {
+    position: absolute;
+    margin-top: 15%;
+    font-size: 60px;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.aboutcont {
+    padding: 40px;
+    font-size: 17px;
+    font-weight: 100;
+    color: rgb(77, 76, 76);
+}

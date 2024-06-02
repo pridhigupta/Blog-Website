@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin: 100px 0px;
+}
+
+.footerSub {
+    margin-top: 30px;
+}
+
+.footerSub>h1 {
+    font-weight: 400;
+}
+
+.footerForm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerForm>input {
+    width: 55vh;
+    border: none;
+    border-bottom: 1px solid rgb(12, 12, 12);
+}
+
+.footerInput {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.footerSubButton {
+    width: 58vh;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+
+.copyRight {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(148, 147, 147);
+}
